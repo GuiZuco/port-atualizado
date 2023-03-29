@@ -1,0 +1,300 @@
+body{
+    font-family: 'Poppins';
+    /* text-align: center; */
+    /* background-color: #04ce5f; */
+}
+
+/* CONTAINER-FLUID */
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+#home .container-fluid{
+    padding: 3% 15% 7%;
+
+}
+
+/* SECTIONS */
+
+.title-sections{
+    margin-bottom: 5%;
+} 
+.green-section{
+    background-color: #04ce5f;
+}
+
+.black-section{
+    background-color: #2e2e2e;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding: 0 0 7.5rem;
+    background-color: #04ce5f;
+}
+
+.navbar-brand{
+    color: #2e2e2e;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    transition: 0.3s;
+    color: #2e2e2e;
+}
+
+.nav-link::after{
+    content: " ";
+    border-bottom: #2e2e2e 2px solid;
+    display: block;
+    /* margin-top: 1px; */
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+/* HOME */
+
+#home{
+    background-color: #04ce5f;
+    color: #fff;
+    /* padding: 3% 18%; */
+}
+
+.text-home{
+    color: #fff;
+}
+
+.name-home{
+    color: #2e2e2e;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+.image-home{
+    width: 90%;
+}
+
+/* BUTTONS PRINCIPAL */
+
+.btn{
+    background-color: #2e2e2e;
+    margin: 5% 3% 5% 0;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* SOBRE */
+
+
+.title-sobre{
+    color: #04ce5f;
+    font-size: 2.5rem;
+}
+
+.text-sobre{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.7;
+}
+
+
+#sobre .container-fluid{
+    padding: 7% 15%;
+}
+
+.image-sobre{
+    width: 100%;
+}
+
+/* HABILIDADES */
+
+#habilidades{
+    text-align: center;
+}
+.title-habilidades{
+    font-size: 2.5rem;
+    color: #2e2e2e;
+}
+
+.title-card{
+    color: #04ce5f;
+}
+
+
+/* PROJETOS */
+
+#projetos .container-fluid{
+    padding: 7% 10%;
+}
+
+@media (max-width: 991px){
+    body{
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 7 10%;
+    }
+
+    #sobre-mim{
+        padding: 10%;
+        text-align: center;
+    }
+
+    .nav-link::after{
+        display: none;
+    }
+    
+}
+
+.logo{
+    width: 100%;
+}
+
+.icon{
+    color: #2e2e2e;
+    color: #04ce5f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 10;
+}
+
+.card-body{
+   
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.black-section{
+    background-color: #2e2e2e;
+}
+
+.black-section h1{
+    color: #04ce5f;
+}
+
+h3{
+    color: #04ce5f;
+}
+
+.card{
+    background-color: #2e2e2e;
+}
+
+.card p{
+    color: #04ce5f;
+    font-size: 1.2rem;
+}
+
+.icon-black{
+    color: #2e2e2e;
+}
+
+.teste{
+    text-align: center;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #505050;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #b6b6b6;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #979797;
+  }
+  
+  .ui{
+    color: #04ce5f;
+  }
+
+  .js{
+    background-color: #2e2e2e;
+    
+  }
+
+  .ca{
+    background-color: #04ce5f;
+  }
+
+
+p{
+    color: #fff;
+}
+
+/* HABILI */
+
+
+
+/* TESTE */
+
+.square-box {
+    text-align: center;
+    padding: 30px;
+    background-color: #2e2e2e;
+    color: #fff;
+    color: #04ce5f;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .square-box i {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .square-box {
+      /* margin-bottom: 30px; */
+    }
+  }
+  
+
+
+
+  
+
+  .foto{
+    margin-bottom: 20px;
+  }
